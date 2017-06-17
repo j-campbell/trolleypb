@@ -12,8 +12,10 @@ A simple program to kill runaway rails processes
 ## Proposed API
 
 ```bash
--l    : list    - don't delete
--v    : verbose - show detailed output
+-l    : list         - show running processes but don't delete
+-v    : verbose      - show detailed output
+-q    : quiet        - only show output on failure
+-p    : specify port - specify a port number for the Rails server
 ```
 
 ## Future Plans
