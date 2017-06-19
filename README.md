@@ -21,3 +21,9 @@ A simple program to kill runaway rails processes
 ## Future Plans
 
 * Expand to kill runaway rails processes
+* Expand to kill runaway ruby processes
+* `?` Expand to kill other ruby processes
+
+## MVP Spec
+
+* Kill runaway rails processes on the default port (3000)
